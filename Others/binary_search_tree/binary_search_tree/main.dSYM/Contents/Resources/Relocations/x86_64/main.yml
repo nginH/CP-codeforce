@@ -1,0 +1,16 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/harshanand/Desktop/C++ file/binary_search_tree/binary_search_tree/main'
+relocations:
+  - { offsetInCU: 0x10E, offset: 0x10E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EA7, symSize: 0x2F }
+  - { offsetInCU: 0xEB43, offset: 0xEB43, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0x5F1C8, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xF97B, offset: 0xF97B, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIjEE, symObjAddr: 0x7F, symBinAddr: 0x100003F3C, symSize: 0x0 }
+  - { offsetInCU: 0xF995, offset: 0xF995, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedImEE, symObjAddr: 0x80, symBinAddr: 0x100003F3D, symSize: 0x0 }
+  - { offsetInCU: 0xF9AF, offset: 0xF9AF, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIyEE, symObjAddr: 0x81, symBinAddr: 0x100003F3E, symSize: 0x0 }
+  - { offsetInCU: 0xFADA, offset: 0xFADA, size: 0x8, addend: 0x0, symName: __ZNSt8__detail30__integer_to_chars_is_unsignedIoEE, symObjAddr: 0x82, symBinAddr: 0x100003F3F, symSize: 0x0 }
+  - { offsetInCU: 0xFB34, offset: 0xFB34, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_main.cpp, symObjAddr: 0x68, symBinAddr: 0x100003F0F, symSize: 0xB }
+  - { offsetInCU: 0xFB60, offset: 0xFB60, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x2F, symBinAddr: 0x100003ED6, symSize: 0x39 }
+  - { offsetInCU: 0xFB68, offset: 0xFB68, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_main.cpp, symObjAddr: 0x68, symBinAddr: 0x100003F0F, symSize: 0xB }
+  - { offsetInCU: 0xFB5C, offset: 0xFB5C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003EA7, symSize: 0x2F }
+  - { offsetInCU: 0xFB64, offset: 0xFB64, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x2F, symBinAddr: 0x100003ED6, symSize: 0x39 }
+...

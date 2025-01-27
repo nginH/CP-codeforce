@@ -1,0 +1,10 @@
+1 2 3
+
+Showing Recent Messages
+
+Prepare build
+error: 'main2.cpp' is not a member of any targets in the current scheme that build for analyzing
+
+
+'main2.cpp' is not a member of any targets in the current scheme that build for analyzing
+

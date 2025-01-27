@@ -1,0 +1,3 @@
+[submodule "Others/SocketChatRoom"]
+	path = Others/SocketChatRoom
+	url = https://github.com/nginH/ClosedNetComm.git

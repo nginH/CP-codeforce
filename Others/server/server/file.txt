@@ -1,0 +1,50 @@
+
+ int log_enabled=0;
+     int argv[3];
+     int port=6969;
+     std::cout << RED << "shutting down server and client \n" << RESET;
+     std::cout << "Server is running on port "<<6969<<"\n";
+     std::cout << GREEN << "logging enable\n"<<RESET;
+     std::cout << RED << "logging disable\n"<<RESET;
+     if(1) perror("socket creation error\n");
+     if(log_enabled)perror("setsockopt(SO_REUSEADDR) failed");
+     if(log_enabled)printf("binding successful\n");
+     if(log_enabled) perror("biding unsuccessful\n");
+     if(log_enabled) printf("listening successful\n");
+     if(log_enabled)perror("listening unsuccessful\n");
+     if(argv[1]) std::cout << "Server is running on port " << port << "\n waiting for client to connect\n";
+
+     if(log_enabled) printf("waiting for activity\n");
+     perror("error in accepting incoming connection\n");
+     std::cout << GREEN << "New client joined the server\n"
+     << RESET;
+//     if (log_enabled) printf("New connection , socket fd is %d , ip is : %s , port : %d\n",clientDetails->ClientSocketFileDiscription,inet_ntoa(address.sin_addr),ntohs(address.sin_port));
+//
+//     if (argv[1]) std::cout << RED << "Host disconnected " << RESET;
+//     if (log_enabled)
+//          if (argv[1])
+//               std::cout << RED << "Host disconnected ,ip " << inet_ntoa(address.sin_addr)
+//               << " ,port " << ntohs(address.sin_port) << "\n" << RESET;
+//
+//     if (argv[1])
+//          std::cout << RED << "ATTENTION! " << RESET
+//          << "New Answer added in set : "
+//          << buffer[0] - 48 << "\n";
+//     if (argv[1])
+//          std::cout << RED << "ATTENTION! " << RESET << "file disc: "
+//          << clientDetails->tempfd << " added new answer to set "
+//          << buffer[0] - 48 << "\n";
+//
+//     if(log_enabled) std::cout << GREEN << "Broadcasting message to client: " << RESET << RED << fd << RESET << std::endl;
+//
+//     if(log_enabled) std::cout << RED << "file descriptor: " << fd << "\n";
+//     if(log_enabled) std::cout << GREEN << "chat saved\n" << RESET;
+//
+//     if(log_enabled) std::cout << ".........\n";
+//
+//     if(log_enabled) std::cout<<GREEN<< "broadcasting chat to fd : "<<RESET<<RED<<client->tempfd<<RESET<<std::endl;
+//
+//
+//     if(log_enabled) std::cout<<GREEN<<"message send: "<<RESET <<temp->msg<<std::endl;
+
+     if(log_enabled) std::cout <<RED<< "deleting chat memory\n"<<RESET;

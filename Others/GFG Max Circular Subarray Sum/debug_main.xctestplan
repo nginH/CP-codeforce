@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "B486ECDE-091A-4C3C-A1E8-054EF289CAA7",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "guardMallocEnabled" : true,
+        "mallocGuardEdgesEnabled" : true,
+        "mallocScribbleEnabled" : true,
+        "mallocStackLoggingOptions" : {
+          "loggingType" : "liveAllocations"
+        },
+        "nsZombieEnabled" : true
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:debug_main.xcodeproj",
+      "identifier" : "1411E6D12AFC17C000EE73A8",
+      "name" : "debug_main"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}
